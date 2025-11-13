@@ -47,7 +47,7 @@ Repo: https://github.com/trafik255/incident-response-handbook
 A complete reference architecture for multi-AZ design, networking, CI/CD, data layer HA, observability stacks, and service mesh patterns.  
 Repo: https://github.com/trafik255/reliability-reference-architecture
 
-### QA-AI Framework
+### QE-AI Framework
 Tools for LLM evaluation, guardrails, goldset/red-team dataset generation, scoring logic, and automated validation using AWS Bedrock models.  
 Repo: https://github.com/trafik255/qa-ai-lite
 
