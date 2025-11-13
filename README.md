@@ -27,9 +27,10 @@ Currently developing a portfolio of open-source examples illustrating platform e
 * AI Quality: dataset generation, evaluation pipelines, LLM model checks (Bedrock)
 
 ## Featured Projects
+
 ### Playwright on EKS
 Terraform + Kubernetes example for running Playwright tests on an AWS EKS cluster.  
-Repo: [https://github.com/trafik255/playwright-on-eks](https://github.com/trafik255/playwright-eks)
+Repo: https://github.com/trafik255/playwright-on-eks
 
 ### Platform Engineering Starter Kit
 Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
@@ -50,6 +51,11 @@ Repo: https://github.com/trafik255/reliability-reference-architecture
 ### QA-AI Framework
 Tools for LLM evaluation, guardrails, goldset/red-team dataset generation, scoring logic, and automated validation using AWS Bedrock models.  
 Repo: https://github.com/trafik255/qa-ai-lite
+
+### Kubernetes Observability Stack
+A fully codified observability stack for Kubernetes, including Prometheus metrics collection, Grafana dashboards, Loki log aggregation, and Fluent Bit log forwarding.  
+Repo: https://github.com/trafik255/k8s-observability-stack
+
 
 ## What I’m Working On
 
