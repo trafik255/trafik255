@@ -1,6 +1,5 @@
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF)
