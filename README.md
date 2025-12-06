@@ -31,7 +31,7 @@ Currently developing a portfolio of open-source examples illustrating platform e
 A production-grade reference architecture for building cloud-native platforms on AWS using Terraform, EKS/ECS, GitHub Actions, and modern observability practices.
 Repo: https://github.com/trafik255/platform-reference-architecture 
 
-### Kubernetes Observability Stack (In DEV)
+### Kubernetes Observability Stack (TESTING)
 Complete Kubernetes observability platform built with Prometheus, Grafana, Loki, Alertmanager, and OpenTelemetry. Provides metrics, logs, traces, dashboards, SLOs, and alerting rules for deep visibility into containerized systems.
 Repo: https://github.com/trafik255/k8s-observability-stack 
 
