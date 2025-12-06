@@ -44,11 +44,12 @@ Repo: https://github.com/trafik255/platform-engineering-starter-kit
 A complete reference architecture for multi-AZ design, networking, CI/CD, data layer HA, observability stacks, and service mesh patterns.  
 Repo: https://github.com/trafik255/reliability-reference-architecture
 
-## What I’m Working On
+## **What I’m Working On**
 
-* Building open-source reference implementations for platform engineering and reliability systems
-* Enhancing IaC and Kubernetes patterns across personal projects
-* Developing cloud-native automation workflows and test orchestration examples
+- Building open-source reference implementations for **platform engineering** and **reliability systems**  
+- Enhancing **IaC** and **Kubernetes** patterns across personal projects  
+- Developing **cloud-native automation** workflows and **test orchestration** examples  
+
 
 ## Contact
 
