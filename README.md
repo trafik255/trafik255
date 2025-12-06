@@ -27,31 +27,35 @@ Currently developing a portfolio of open-source examples illustrating platform e
 * AI Quality: dataset generation, evaluation pipelines, LLM model checks (Bedrock)
 
 ## Featured Projects
-### Platform Reference Architecture
+### Platform Reference Architecture (In DEV)
 A production-grade reference architecture for building cloud-native platforms on AWS using Terraform, EKS/ECS, GitHub Actions, and modern observability practices.
 Repo: https://github.com/trafik255/platform-reference-architecture 
 
-### Playwright on EKS
+### Kubernetes Observability Stack (In DEV)
+Complete Kubernetes observability platform built with Prometheus, Grafana, Loki, Alertmanager, and OpenTelemetry. Provides metrics, logs, traces, dashboards, SLOs, and alerting rules for deep visibility into containerized systems.
+Repo: https://github.com/trafik255/k8s-observability-stack 
+
+### Playwright on EKS (In DEV)
 Terraform + Kubernetes example for running Playwright tests on an AWS EKS cluster.  
 Repo: https://github.com/trafik255/playwright-on-eks
 
-### Platform Engineering Starter Kit
+### Platform Engineering Starter Kit (TESTING)
 Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
 Repo: https://github.com/trafik255/platform-engineering-starter-kit
 
-### Reliability Engineering Patterns
+### Reliability Engineering Patterns (In DEV)
 A curated library of patterns for availability, resilience, scalability, observability, deployments, and security. Includes examples in Terraform, Kubernetes, and GitHub Actions.  
 Repo: https://github.com/trafik255/reliability-engineering-patterns
 
-### Incident Response Handbook
+### Incident Response Handbook (In DEV)
 A practical framework for on-call operations, severity models, escalation paths, communication playbooks, runbooks, SLIs/SLOs, and postmortem standards.  
 Repo: https://github.com/trafik255/incident-response-handbook
 
-### Reliability Reference Architecture
+### Reliability Reference Architecture (In DEV)
 A complete reference architecture for multi-AZ design, networking, CI/CD, data layer HA, observability stacks, and service mesh patterns.  
 Repo: https://github.com/trafik255/reliability-reference-architecture
 
-### QA-AI Framework
+### QA-AI Framework (In DEV)
 Tools for LLM evaluation, guardrails, goldset/red-team dataset generation, scoring logic, and automated validation using AWS Bedrock models.  
 Repo: https://github.com/trafik255/qa-ai-lite
 
