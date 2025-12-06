@@ -28,8 +28,7 @@ Currently developing a portfolio of open-source examples illustrating platform e
 
 ## Featured Projects
 ### Platform Reference Architecture
-A comprehensive reference architecture for building cloud-native platforms using Terraform, AWS ECS/EKS, GitHub
-Actions, and observability best practices.
+A production-grade reference architecture for building cloud-native platforms on AWS using Terraform, EKS/ECS, GitHub Actions, and modern observability practices.
 Repo: https://github.com/trafik255/platform-reference-architecture 
 
 ### Playwright on EKS
