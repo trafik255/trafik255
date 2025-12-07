@@ -12,7 +12,7 @@
 
 Platform & Reliability Engineering leader focused on building cloud-native delivery systems, Terraform-driven infrastructure, resilient Kubernetes workloads, and automated CI/CD platforms. I work at the intersection of Platform Engineering, SRE, and Quality, designing systems that are observable, reproducible, and safe to deploy at scale.
 
-My background spans AWS, Terraform, Kubernetes, GitHub Actions, distributed testing platforms, Playwright, and end-to-end reliability engineering. I build infrastructure and automation that reduce operational burden and increase development velocity.
+My background spans AWS, Terraform, Kubernetes, observability, GitHub Actions, distributed testing platform, and end-to-end reliability engineering. I build infrastructure and automation that reduce operational burden and increase development velocity.
 
 I’m currently developing a portfolio of open-source reference implementations showcasing platform engineering patterns, IaC architectures, Kubernetes platform design, and cloud-native automation workflows.
 
@@ -22,7 +22,7 @@ I’m currently developing a portfolio of open-source reference implementations 
 * **CI/CD Architecture:** GitHub Actions platforms, container-native pipelines, deployment automation at scale
 * **Kubernetes Platform Engineering:** Cluster architecture, multi-namespace design, workload orchestration, scaling strategies
 * **Reliability Engineering:** SLO/SLI governance, metrics/logging architecture, observability systems, operational excellence
-* **Test Platform Engineering:** Distributed test execution, Playwright/Pytest integration, pipeline-driven validation systems
+* **Test Platform Engineering:** Distributed test execution, Playwright/Pytest integration, pipeline-driven validation systems for QE teams.
 * **AI Reliability:** Dataset pipelines, evaluation frameworks, LLM behavior validation and guardrail checks (Bedrock)
 
 ## Featured Projects
