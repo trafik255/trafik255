@@ -30,17 +30,6 @@ I’m currently developing a portfolio of open-source reference implementations 
 A production-grade reference architecture for building cloud-native platforms on AWS using Terraform, EKS/ECS, GitHub Actions, and modern observability practices.
 Repo: https://github.com/trafik255/platform-reference-architecture 
 
-### Kubernetes Observability Stack 
-Complete Kubernetes observability platform built with Prometheus, Grafana, Loki, Alertmanager, Tempo, and OpenTelemetry. Provides metrics, logs, traces, dashboards, and alerting rules for deep visibility into containerized systems.
-Repo: https://github.com/trafik255/k8s-observability-stack 
-
-### Platform Engineering Starter Kit 
-Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
-Repo: https://github.com/trafik255/platform-engineering-starter-kit
-
-### Reliability Reference Architecture 
-A complete reference architecture for multi-AZ design, networking, CI/CD, data layer HA, observability stacks, and service mesh patterns.  
-Repo: https://github.com/trafik255/reliability-reference-architecture
 
 ## **What I’m Working On**
 
