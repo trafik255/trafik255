@@ -32,9 +32,6 @@ A production-grade reference architecture for building cloud-native platforms on
 ### Kubernetes Observability Stack 
 Complete Kubernetes observability platform built with Prometheus, Grafana, Loki, Alertmanager, Tempo, and OpenTelemetry. Provides metrics, logs, traces, dashboards, and alerting rules for deep visibility into containerized systems.
 
-### Platform Engineering Starter Kit 
-Reference architecture for IaC-driven platform provisioning using Terraform, AWS ECS/ECR, CloudWatch logging, IAM roles, and GitHub Actions pipelines.  
-
 ### Incident Response Handbook
 A practical, production-ready handbook defining incident response workflows, escalation paths, communication patterns, postmortem structures, severity taxonomies, and operational readiness processes.
 
