@@ -19,7 +19,8 @@ My work spans end-to-end platform design—from infrastructure and CI/CD systems
 * Rebuild and stabilize CI/CD systems under failure
 * Design distributed test execution platforms on ECS
 * Implement infrastructure and security controls to mitigate production traffic spikes and cost risks
-* Designed and built [BusyNow](https://busynow.app) as an end-to-end cloud-native platform, owning application architecture, AWS infrastructure (VPC, ECS, ALB, CloudFront, WAF), and CI/CD. **The app is only fully available within the cities currently listed in the product**, with platform controls including WAF protections and API guardrails to mitigate bot traffic and prevent external API cost spikes.
+* Designed and built [BusyNow](https://busynow.app) as an end-to-end cloud-native platform, owning application architecture, AWS infrastructure (VPC, ECS, ALB, CloudFront, WAF), and CI/CD.
+* For HMs and recruiters who want more context, see [BusyNow public](https://github.com/warehousegang/busynow-public). **The app is only fully available within the cities currently listed in the product**, with platform controls including WAF protections and API guardrails to mitigate bot traffic and prevent external API cost spikes.
 
 ## Technical focus areas include:
 
