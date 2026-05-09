@@ -12,7 +12,7 @@ Platform & Reliability Engineer focused on designing pragmatic, production-ready
 
 I build cloud-native platforms that balance reliability, simplicity, cost, and developer velocity, avoiding unnecessary complexity while enabling systems to scale safely over time.
 
-My work spans end-to-end platform design—from infrastructure and CI/CD systems to observability and incident response—grounded in real production challenges rather than theoretical architectures.
+My work spans end-to-end platform design, from infrastructure and CI/CD systems to observability and incident response—grounded in real production challenges rather than theoretical architectures.
 
 ## My recent work includes:
 * [VBC360 Dashboard](https://github.com/warehousegang/vbc360-dashboard) — Designed, built, and operated the full-stack application and platform, including infrastructure, CI/CD, and deployment architecture.
