@@ -1,46 +1,82 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![EKS](https://img.shields.io/badge/Amazon_EKS-Kubernetes-326CE5)
+![Helm](https://img.shields.io/badge/Helm-Packaging-0F1689)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D)
+![Karpenter](https://img.shields.io/badge/Karpenter-Node_Autoscaling-4B5563)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF)
-![Python](https://img.shields.io/badge/Python-Automation-3776AB)
-![Linux](https://img.shields.io/badge/Linux-Systems-black)
 ![SRE](https://img.shields.io/badge/Site_Reliability-Engineering-blue)
 
 # About Me
 
-Platform & Reliability Engineer focused on designing pragmatic, production-ready systems under real-world constraints.
+Platform & Reliability Engineer focused on building cloud-native systems that survive contact with production.
 
-I build cloud-native platforms that balance reliability, simplicity, cost, and developer velocity, avoiding unnecessary complexity while enabling systems to scale safely over time.
+I design AWS platforms with a practical bias: reliable enough to trust, simple enough to operate, cost-aware enough to scale, and automated enough that teams can ship without turning deployment into a ceremony. My recent work has moved deeply into production Kubernetes on EKS, including Helm-based workload packaging, ArgoCD-driven GitOps delivery, and Karpenter-backed compute strategy.
 
-My work spans end-to-end platform design—from infrastructure and CI/CD systems to observability and incident response—grounded in real production challenges rather than theoretical architectures.
+I like the hard middle of platform engineering: where infrastructure, CI/CD, observability, security controls, developer experience, and incident response all meet. The goal is not just to make something deploy. The goal is to make it understandable, recoverable, repeatable, and safe to change.
 
-## My recent work includes:
-* [VBC360 Dashboard](https://github.com/warehousegang/vbc360-dashboard) — Designed, built, and operated the full-stack application and platform, including infrastructure, CI/CD, and deployment architecture.
-* Rebuild and stabilize CI/CD systems under failure
-* Design distributed test execution platforms on ECS
-* Implement infrastructure and security controls to mitigate production traffic spikes and cost risks
-* Designed and built [BusyNow](https://busynow.app) as an end-to-end cloud-native platform, owning application architecture, AWS infrastructure (VPC, ECS, ALB, CloudFront, WAF), and CI/CD. **The app is only fully available within the cities currently listed in the product**
-* For HMs and recruiters who want more context, see [BusyNow public](https://github.com/warehousegang/busynow-public).
-* Availability is geo-limited with platform controls including WAF protections and API guardrails to mitigate bot traffic and prevent external API cost spikes.
+## What I Build
 
-## Technical focus areas include:
+* Production AWS platforms using EKS, VPC networking, IAM, ALB, CloudFront, WAF, and cost controls
+* Kubernetes delivery systems using Helm, ArgoCD, GitOps workflows, environment promotion, and rollback patterns
+* EKS compute models using Karpenter, workload-aware node provisioning, scheduling constraints, and cost-aware scaling
+* Terraform infrastructure for reproducible multi-environment systems and platform foundations
+* CI/CD systems with GitHub Actions, containerized pipelines, deployment gates, validation, and failure recovery
+* Observability foundations with metrics, logs, traces, dashboards, alerting, and incident-oriented runbooks
+* Security and resilience controls for bot traffic, API abuse, production spikes, and external service cost risk
 
-* Cloud Architecture: AWS (ECS/EKS), VPC design, IAM, cost-aware infrastructure decisions
-* Infrastructure as Code: Terraform systems for multi-environment, reproducible infrastructure
-* CI/CD Platforms: GitHub Actions, container-based pipelines, deployment safety and rollback strategies
-* Kubernetes & Compute Strategy: Applying Kubernetes where it adds value—not by default
-* Reliability Engineering: SLO-driven thinking, observability systems, failure-mode design, incident response
-* Test Platform Engineering: Distributed execution systems, pipeline-integrated validation at scale
-* AI Reliability: Evaluation frameworks, guardrails, and system behavior validation
+## Recent Work
 
-Current work focuses on building production-grade reference architectures and platform patterns, including:
+* [VBC360 Dashboard](https://github.com/warehousegang/vbc360-dashboard) - Designed, built, and operated the full-stack application and platform, including infrastructure, CI/CD, and deployment architecture.
+* Built and evolved EKS platform patterns with Helm charts, ArgoCD GitOps delivery, and Karpenter-driven node provisioning.
+* Rebuilt and stabilized CI/CD systems under failure, with emphasis on repeatability, rollback, and clearer operational ownership.
+* Designed distributed test execution patterns for Kubernetes-native CI validation and scalable workload execution.
+* Implemented infrastructure and security controls to mitigate production traffic spikes, bot behavior, and API-driven cost risks.
+* Designed and built [BusyNow](https://busynow.app) as an end-to-end cloud-native platform, owning application architecture, AWS infrastructure, and CI/CD.
+* For hiring managers and recruiters who want more context, see [BusyNow public](https://github.com/warehousegang/busynow-public).
 
-* Cloud-native platform architectures on AWS
-* Kubernetes observability systems (Prometheus, Grafana, OTel stack)
-* CI/CD and deployment safety patterns (blue/green, canary, rollback)
-* Reliability playbooks and incident response frameworks
+## Technical Depth
+
+**Kubernetes & EKS**
+
+* EKS cluster architecture, workload isolation, namespace strategy, ingress patterns, service exposure, and AWS integration
+* Helm chart design for repeatable application packaging, configuration layering, and environment-specific values
+* ArgoCD application models, GitOps sync workflows, declarative delivery, drift detection, and promotion patterns
+* Karpenter provisioning strategy, node pool design, right-sized compute, disruption handling, and cost-aware autoscaling
+* Kubernetes scheduling primitives including requests, limits, taints, tolerations, affinity, disruption budgets, and health probes
+
+**AWS Platform Engineering**
+
+* VPC design, private/public subnet strategy, routing, security groups, IAM boundaries, and service-to-service access
+* Kubernetes platform design for production workloads, including cluster boundaries, delivery workflows, and operational ownership
+* ALB, CloudFront, WAF, DNS, TLS, and edge controls for secure public application delivery
+* Cost-aware infrastructure decisions, especially around autoscaling, traffic spikes, third-party APIs, and over-provisioning risk
+
+**Infrastructure as Code & Delivery**
+
+* Terraform modules, multi-environment state strategy, reproducible infrastructure, and reviewable change workflows
+* GitHub Actions pipelines for build, test, container publishing, infrastructure validation, and deployment orchestration
+* Deployment safety patterns including blue/green, canary, staged rollout, rollback, smoke tests, and health-based promotion
+* GitOps operating models that keep production state reviewable, auditable, and recoverable from source control
+
+**Reliability & Operations**
+
+* SLO-minded service design, failure-mode analysis, alert quality, incident response, and practical runbooks
+* Observability systems using Prometheus, Grafana, OpenTelemetry, structured logs, and application-level health signals
+* Production guardrails for rate limiting, bot protection, API failure handling, degraded modes, and cost containment
+* Test platform engineering for distributed execution, pipeline feedback, and system behavior validation
+
+## Current Focus
+
+I am currently building production-grade platform reference architectures and operational patterns around:
+
+* EKS platform foundations with Helm, ArgoCD, GitOps, and Karpenter
+* Kubernetes observability and incident response workflows
+* Deployment safety patterns for application and infrastructure changes
+* AWS cost controls, security boundaries, and reliability guardrails
+* AI reliability work involving evaluation frameworks, guardrails, and behavior validation
 
 ## Contact
 
-LinkedIn: https://www.linkedin.com/in/thomashow/
+LinkedIn: https://www.linkedin.com/in/thomashow/  
 GitHub: https://github.com/warehousegang
