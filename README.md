@@ -18,6 +18,12 @@ I like the hard middle of platform engineering: where infrastructure, CI/CD, obs
 
 ## Featured Project: Yardmaster
 
+<p align="center">
+  <a href="https://github.com/warehousegang/yardmaster">
+    <img src="assets/yardmaster.png" alt="Yardmaster logo" width="200">
+  </a>
+</p>
+
 [Yardmaster](https://github.com/warehousegang/yardmaster) is a Kubernetes capacity intelligence tool I am building for platform teams. It watches workloads, nodes, scheduling events, and node pools, then turns raw cluster state into clear explanations and recommendations.
 
 The goal is to help operators quickly understand why workloads are not scheduling, where capacity is being wasted, and which placement or resource constraints are making the cluster harder to operate. Yardmaster focuses on the problems Kubernetes teams actually chase during incidents and capacity reviews: pending pods, missing requests, overloaded node pools, inefficient bin packing, and workloads constrained by labels, taints, affinity, or topology rules.
