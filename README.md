@@ -43,7 +43,6 @@ In Yardmaster's model, workloads are Cargo, node pools are Tracks, and recommend
 
 ## Recent Work
 
-* [VBC360 Dashboard](https://github.com/warehousegang/vbc360-dashboard) - Designed, built, and operated the full-stack application and platform, including infrastructure, CI/CD, and deployment architecture.
 * Built and evolved EKS platform patterns with Helm charts, ArgoCD GitOps delivery, and Karpenter-driven node provisioning.
 * Rebuilt and stabilized CI/CD systems under failure, with emphasis on repeatability, rollback, and clearer operational ownership.
 * Designed distributed test execution patterns for Kubernetes-native CI validation and scalable workload execution.
